@@ -8,8 +8,8 @@
 import Foundation
 
 public struct Traveller {
-  let id: Int
-  let name: String?
+  public let id: Int
+  public let name: String?
 
   public init(id: Int, name: String? = nil) {
     self.id = id
