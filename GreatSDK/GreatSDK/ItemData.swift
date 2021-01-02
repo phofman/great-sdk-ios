@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftyXMLParser
+@_implementationOnly import SwiftyXMLParser   // https://forums.swift.org/t/swiftinterface-import/34548 && https://forums.swift.org/t/exported-and-fixing-import-visibility/9415 && https://forums.swift.org/t/update-on-implementation-only-imports/26996
 
 public struct ItemData {
   public let id: Int

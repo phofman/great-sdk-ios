@@ -1,5 +1,9 @@
 #!/bin/sh
 
+rm -rf build/
+rm -rf GreatSDK/build/
+rm -rf GreatSDK/Pods/build/
+
 xcodebuild clean archive -workspace GreatSDK/GreatSDK.xcworkspace -scheme "GreatSDK" \
             -sdk iphoneos OBJROOT=build/iOS SKIP_INSTALL=YES BUILD_LIBRARY_FOR_DISTRIBUTION=YES | xcpretty
 
