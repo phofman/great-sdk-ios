@@ -81,7 +81,6 @@
 				725EE490903927D0AEA93F94 /* Pods-GreatSDK-GreatSDKTests.debug.xcconfig */,
 				6087DC212A6562F86622581F /* Pods-GreatSDK-GreatSDKTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -500,7 +499,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 725EE490903927D0AEA93F94 /* Pods-GreatSDK-GreatSDKTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L42XFCW59;
 				INFOPLIST_FILE = GreatSDKTests/Info.plist;
@@ -520,7 +518,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6087DC212A6562F86622581F /* Pods-GreatSDK-GreatSDKTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L42XFCW59;
 				INFOPLIST_FILE = GreatSDKTests/Info.plist;
