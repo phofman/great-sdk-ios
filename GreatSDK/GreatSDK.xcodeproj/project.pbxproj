@@ -14,6 +14,7 @@
 		E56F0631259FE78B00FC30B2 /* GreatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E56F0623259FE78B00FC30B2 /* GreatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E56F0644259FE89E00FC30B2 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F0643259FE89E00FC30B2 /* ItemData.swift */; };
 		E56F064A259FEA8E00FC30B2 /* ItemDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F0649259FEA8E00FC30B2 /* ItemDataParserTests.swift */; };
+		E56F06A825A11DE100FC30B2 /* Traveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F06A725A11DE100FC30B2 /* Traveller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		E56F0630259FE78B00FC30B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E56F0643259FE89E00FC30B2 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
 		E56F0649259FEA8E00FC30B2 /* ItemDataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataParserTests.swift; sourceTree = "<group>"; };
+		E56F06A725A11DE100FC30B2 /* Traveller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				E56F0624259FE78B00FC30B2 /* Info.plist */,
 				E56F0623259FE78B00FC30B2 /* GreatSDK.h */,
 				E56F0643259FE89E00FC30B2 /* ItemData.swift */,
+				E56F06A725A11DE100FC30B2 /* Traveller.swift */,
 			);
 			path = GreatSDK;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E56F0644259FE89E00FC30B2 /* ItemData.swift in Sources */,
+				E56F06A825A11DE100FC30B2 /* Traveller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
