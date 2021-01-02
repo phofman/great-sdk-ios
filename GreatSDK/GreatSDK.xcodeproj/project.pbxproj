@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008FAD0825559B2D3C132D2D /* Pods_GreatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE0D3E3C96E9A7336C8F917 /* Pods_GreatSDK.framework */; };
+		DE34A59A75479AE518B513CD /* Pods_GreatSDK_GreatSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9151D4B11B13ECFF28D5FF7C /* Pods_GreatSDK_GreatSDKTests.framework */; };
 		E56F062A259FE78B00FC30B2 /* GreatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56F0620259FE78B00FC30B2 /* GreatSDK.framework */; };
 		E56F062F259FE78B00FC30B2 /* GreatSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F062E259FE78B00FC30B2 /* GreatSDKTests.swift */; };
 		E56F0631259FE78B00FC30B2 /* GreatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E56F0623259FE78B00FC30B2 /* GreatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E56F0640259FE80800FC30B2 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = E56F063F259FE80800FC30B2 /* SwiftyXMLParser */; };
 		E56F0644259FE89E00FC30B2 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F0643259FE89E00FC30B2 /* ItemData.swift */; };
 		E56F064A259FEA8E00FC30B2 /* ItemDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F0649259FEA8E00FC30B2 /* ItemDataParserTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AE0D3E3C96E9A7336C8F917 /* Pods_GreatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6087DC212A6562F86622581F /* Pods-GreatSDK-GreatSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatSDK-GreatSDKTests.release.xcconfig"; path = "Target Support Files/Pods-GreatSDK-GreatSDKTests/Pods-GreatSDK-GreatSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		725EE490903927D0AEA93F94 /* Pods-GreatSDK-GreatSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatSDK-GreatSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-GreatSDK-GreatSDKTests/Pods-GreatSDK-GreatSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F643CA44C01196095213F6C /* Pods-GreatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatSDK.debug.xcconfig"; path = "Target Support Files/Pods-GreatSDK/Pods-GreatSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9151D4B11B13ECFF28D5FF7C /* Pods_GreatSDK_GreatSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreatSDK_GreatSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973D189C12669AE1BEF573CC /* Pods-GreatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatSDK.release.xcconfig"; path = "Target Support Files/Pods-GreatSDK/Pods-GreatSDK.release.xcconfig"; sourceTree = "<group>"; };
 		E56F0620259FE78B00FC30B2 /* GreatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GreatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56F0623259FE78B00FC30B2 /* GreatSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreatSDK.h; sourceTree = "<group>"; };
 		E56F0624259FE78B00FC30B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E56F0640259FE80800FC30B2 /* SwiftyXMLParser in Frameworks */,
+				008FAD0825559B2D3C132D2D /* Pods_GreatSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +57,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				E56F062A259FE78B00FC30B2 /* GreatSDK.framework in Frameworks */,
+				DE34A59A75479AE518B513CD /* Pods_GreatSDK_GreatSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41FC29B1531E40D240183043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AE0D3E3C96E9A7336C8F917 /* Pods_GreatSDK.framework */,
+				9151D4B11B13ECFF28D5FF7C /* Pods_GreatSDK_GreatSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9FB59FE17D2D287106F0A73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F643CA44C01196095213F6C /* Pods-GreatSDK.debug.xcconfig */,
+				973D189C12669AE1BEF573CC /* Pods-GreatSDK.release.xcconfig */,
+				725EE490903927D0AEA93F94 /* Pods-GreatSDK-GreatSDKTests.debug.xcconfig */,
+				6087DC212A6562F86622581F /* Pods-GreatSDK-GreatSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E56F0616259FE78B00FC30B2 = {
 			isa = PBXGroup;
 			children = (
 				E56F0622259FE78B00FC30B2 /* GreatSDK */,
 				E56F062D259FE78B00FC30B2 /* GreatSDKTests */,
 				E56F0621259FE78B00FC30B2 /* Products */,
+				A9FB59FE17D2D287106F0A73 /* Pods */,
+				41FC29B1531E40D240183043 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E56F0634259FE78B00FC30B2 /* Build configuration list for PBXNativeTarget "GreatSDK" */;
 			buildPhases = (
+				653D5263DC8C043B4ABE9075 /* [CP] Check Pods Manifest.lock */,
 				E56F061B259FE78B00FC30B2 /* Headers */,
 				E56F061C259FE78B00FC30B2 /* Sources */,
 				E56F061D259FE78B00FC30B2 /* Frameworks */,
@@ -122,9 +154,6 @@
 			dependencies = (
 			);
 			name = GreatSDK;
-			packageProductDependencies = (
-				E56F063F259FE80800FC30B2 /* SwiftyXMLParser */,
-			);
 			productName = GreatSDK;
 			productReference = E56F0620259FE78B00FC30B2 /* GreatSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -133,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E56F0637259FE78B00FC30B2 /* Build configuration list for PBXNativeTarget "GreatSDKTests" */;
 			buildPhases = (
+				B38FE70C62921D897482E683 /* [CP] Check Pods Manifest.lock */,
 				E56F0625259FE78B00FC30B2 /* Sources */,
 				E56F0626259FE78B00FC30B2 /* Frameworks */,
 				E56F0627259FE78B00FC30B2 /* Resources */,
@@ -174,9 +204,6 @@
 				Base,
 			);
 			mainGroup = E56F0616259FE78B00FC30B2;
-			packageReferences = (
-				E56F063E259FE80800FC30B2 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */,
-			);
 			productRefGroup = E56F0621259FE78B00FC30B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -203,6 +230,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		653D5263DC8C043B4ABE9075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreatSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38FE70C62921D897482E683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreatSDK-GreatSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E56F061C259FE78B00FC30B2 /* Sources */ = {
@@ -237,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -269,6 +344,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -290,6 +366,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -301,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -333,6 +411,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -347,6 +426,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -357,6 +437,7 @@
 		};
 		E56F0635259FE78B00FC30B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F643CA44C01196095213F6C /* Pods-GreatSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,6 +468,7 @@
 		};
 		E56F0636259FE78B00FC30B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973D189C12669AE1BEF573CC /* Pods-GreatSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +498,7 @@
 		};
 		E56F0638259FE78B00FC30B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725EE490903927D0AEA93F94 /* Pods-GreatSDK-GreatSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -435,6 +518,7 @@
 		};
 		E56F0639259FE78B00FC30B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6087DC212A6562F86622581F /* Pods-GreatSDK-GreatSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,25 +567,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E56F063E259FE80800FC30B2 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/yahoojapan/SwiftyXMLParser";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E56F063F259FE80800FC30B2 /* SwiftyXMLParser */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E56F063E259FE80800FC30B2 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */;
-			productName = SwiftyXMLParser;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E56F0617259FE78B00FC30B2 /* Project object */;
 }
